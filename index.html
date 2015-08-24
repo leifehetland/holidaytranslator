@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Holiday Translator</title>
+	<link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+
+	<textarea id="takesEnglish" placeholder= "Input Words Here!"></textarea>
+
+	<br>
+	  <input id="languages" list="languages_list" name="languages" placeholder="Choose a Language" />
+  <datalist id="languages_list">
+    <option value="Spanish">
+    <option value="French">
+  </datalist>
+  <br>
+	<button id="translateButton">Translate</button>
+	<br>
+	<textarea id="newLanguage"></textarea>
+
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="./main.js"></script>
+	<script src="./french.js"></script>
+	<script src="./spanish.js"></script>
+</body>
+</html>
